@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dish-image {
+    display: block;
+    margin: 0 auto; /* Task 13: Centering the Image */
+    height: 150px; /* Task 2: Set image height */
+    border: 2px solid black; /* Task 12: Border around the image */
+}
+
+.description {
+    background-color: yellow; /* Task 3: Background color */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#cook-time {
+    color: red; /* Task 4: Text color */
+    padding-left: 20px; /* Task 14: Left indent using padding */
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+ul.ingredients {
+    list-style-type: square; /* Use solid square bullet points */
+    padding-left: 20px;
+}
+
+ol.preparations {
+    padding-left: 20px;
+    counter-reset: list-counter; /* Optional: For numbered steps */
+}
+
+ol.preparations li {
+    margin-bottom: 15px;
+    counter-increment: list-counter;
+}
+
+ol.preparations li::before {
+    content: counter(list-counter) ". ";
+    font-weight: bold;
+}
+
+ol.preparations p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+ol.preparations p.time {
+    color: grey; /* Task 11: Time text color */
+    font-style: italic;
+}
