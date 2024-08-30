@@ -4,6 +4,10 @@
 1. Assignment : Photography Blog
 2. Assignment 1: Book Review Blog
 3. Assignment 2: College Admission Form
+4. Assignment : Chess Board
+
+## Assignment : Chess Board
+<img src="ChessAssignment(preview).png" alt="Photography Blog Preview" width="500">
 
 ## Assignment : Photography Blog
 
